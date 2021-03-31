@@ -61,6 +61,7 @@
         font-weight: 400;
         color: $text-color;
         -webkit-font-smoothing: antialiased;
+	    letter-spacing: 4px;
 
         &:hover {
             color: $text-hover;
@@ -143,24 +144,26 @@
 	}
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
     .header {
         .nav-list {
-            width: 300px;
+            width: 100%;
             height: calc(100% -65px);
             background:white;
             position: absolute;
             top: 65px;
-            left: -300px;
+            left: -100%;
             transition: 300ms ease left;
             flex-direction: column;
-            padding: 40%;
-            // padding-left: 30px;
+            margin: auto;
+            text-align: center;
+            padding-top: 40%;
             
             a{
                 width: 100%;
                 padding: 0;
                 font-weight: 1000;
+                font-size: 25px;
             }
 
             li{
