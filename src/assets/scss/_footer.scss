@@ -1,13 +1,13 @@
 #footer .footer {
-    min-height: 200px;
+    // min-height: 250px;
+    height: auto;
     flex-direction: column;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
-    background-color: $text-color;
-
+background-image: linear-gradient(60deg, #444 0%, #485563 100%);
     h1 {
         color: white;
         letter-spacing: 3px;
@@ -21,7 +21,7 @@
 
     span {
         text-transform: uppercase;
-        color: $text-hover;
+        color: whitesmoke;
         font-family: 'Montserrat', sans-serif;
         font-size: 20px;
 
@@ -37,25 +37,27 @@
     }
 
     .social-icon {
-        display: flex;
         margin-bottom: 30px;
         text-align: center;
-
-        .social-item {
-            height: 50px;
-            width: 50px;
-            margin: 0 5px;
-        }
-
-        .social-item img {
-            filter: grayscale(1);
-            transition: .3s ease filter;
-        }
-
-        .social-item:hover img {
-            filter: grayscale(0);
-        }
+        display: inline-block;
     }
+
+    .social-item {
+        height: 50px;
+        width: 50px;
+        margin: 0 5px;
+        display: inline;
+    }
+
+    .social-item img {
+        filter: grayscale(1);
+        transition: .3s ease filter;
+    }
+
+    .social-item:hover img {
+        filter: grayscale(0);
+    }
+
 
     p {
         color: white;
