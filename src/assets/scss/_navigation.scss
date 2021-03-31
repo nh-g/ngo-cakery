@@ -1,5 +1,5 @@
 .header {
-    height: 65px;
+    height: 90px;
     width: 100%;
 
     // padding: 12px 16px;
@@ -17,7 +17,7 @@
         height: 50px;
         align-items: center;
         padding-left: 20px;
-        padding-top: 10px;
+        padding-top: 20px;
     }
 
     // h1 {
@@ -126,10 +126,10 @@
     }
 
     .menu .bar {
-        height: 2px;
-        width: 30px;
+        height: 1px;
+        width: 22px;
         position: relative;
-        background-color: white;
+        background-color: $text-color;
         z-index: -1;
     }
 }
