@@ -3,6 +3,7 @@ import Navigation from './components/Navigation';
 import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
 
 import PageRenderer from "./Page-renderer"
+import Footer from "./components/Footer"
 export default function App() {
   return (
     <Router>
@@ -13,6 +14,7 @@ export default function App() {
           <Route path="/" render = {() => <Redirect to="/home"/>} />
           <Route component={() => 404} />   
         </Switch>
+        <Footer />
       </div>
     </Router>
   );

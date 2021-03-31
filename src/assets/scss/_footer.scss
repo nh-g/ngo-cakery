@@ -1,0 +1,64 @@
+#footer .footer {
+    min-height: 200px;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: $text-color;
+
+    h1 {
+        color: white;
+        letter-spacing: 3px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: 500;
+        font-family: 'Dancing Script', cursive;
+        text-transform: none;
+        font-size: 30px;
+    }
+
+    span {
+        text-transform: uppercase;
+        color: $text-hover;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+
+    }
+
+    h2 {
+        color: $text-hover;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 1.5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .social-icon {
+        display: flex;
+        margin-bottom: 30px;
+        text-align: center;
+
+        .social-item {
+            height: 50px;
+            width: 50px;
+            margin: 0 5px;
+        }
+
+        .social-item img {
+            filter: grayscale(1);
+            transition: .3s ease filter;
+        }
+
+        .social-item:hover img {
+            filter: grayscale(0);
+        }
+    }
+
+    p {
+        color: white;
+        font-size: 10px;
+    }
+}

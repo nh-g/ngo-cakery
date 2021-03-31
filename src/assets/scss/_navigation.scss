@@ -13,11 +13,11 @@
     color: $text-color;
 
     .brand {
-        width: 50px;
-        height: 50px;
+        width: 90px;
+        height: 70px;
         align-items: center;
         padding-left: 20px;
-        padding-top: 20px;
+        padding-top: 10px;
     }
 
     // h1 {
@@ -70,8 +70,8 @@
     }
 
     .menu {
-        height: 50px;
-        width: 50px;
+        height: 70px;
+        width: 70px;
         display: inline-block;
         border: 1px solid $text-hover;
         border-radius: 50%;
@@ -110,11 +110,11 @@
     }
 
     .menu .bar::after {
-        top: 7px;
+        top: 10px;
     }
 
     .menu .bar::before {
-        bottom: 7px;
+        bottom: 10px;
     }
 
     .menu .bar.active .bar::before {
@@ -127,7 +127,7 @@
 
     .menu .bar {
         height: 1px;
-        width: 22px;
+        width: 30px;
         position: relative;
         background-color: $text-color;
         z-index: -1;
