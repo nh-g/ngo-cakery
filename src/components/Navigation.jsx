@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 
 const navLinks = [
@@ -21,25 +21,27 @@ path: '/contact'
 ]
 
 export default function Navigation() {
-return (
-<div class="header container">
-    <div class="nav-bar">
-        <div class="brand">
-            <a href="home.jsx" data-after="Logo"> <img src="../img/shoplogo.png" alt="img" /> </a>
+    const [menuActive, setMenuActive] = useState(false)
+    return (
+      <div className="header">
+        <img
+          className="brand "
+          src={require("../image/cupcakelogo.jpeg").default}
+          alt="Logo"
+        />
+        <div className={`nav-list ${menuActive && "active"}`}>
+          <ul>
+            {navLinks.map((link, index) => (
+              <li key={index}>
+                <Link to={link.path}>{link.title}</Link>
+              </li>
+            ))}
+          </ul>
         </div>
-        <div class="nav-list">
-            <div class="hamburger">
-                <div class="bar"></div>
-            </div>
-            <ul>
-                {navLinks.map((link, index) => (
-                <li key={index}>
-                    <Link to={link.path}>{link.title}</Link>
-                </li>
-                ))}
-            </ul>
+        <div className ="menu"  onClick={() => setMenuActive(!menuActive)} >
+            <div className="bar"></div>
         </div>
-    </div>
-</div>
-    )
+                
+      </div>
+    );
 }

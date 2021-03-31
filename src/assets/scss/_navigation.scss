@@ -80,7 +80,7 @@
         justify-content: center;
         z-index: 100;
         cursor: pointer;
-        transform: scale(.8);
+        transform: scale(.65);
         margin-right: 20px;
         background-color: white;
         display: none;
@@ -92,7 +92,7 @@
         height: 100%;
         width: 100%;
         border-radius: 50%;
-        border: 1px solid $text-hover;
+        border: 1px solid white;
         animation: hamburger_puls 1s ease infinite;
     }
 
@@ -109,11 +109,11 @@
     }
 
     .menu .bar::after {
-        top: 8px;
+        top: 7px;
     }
 
     .menu .bar::before {
-        bottom: 8px;
+        bottom: 7px;
     }
 
     .menu .bar.active .bar::before {
@@ -131,6 +131,16 @@
         background-color: white;
         z-index: -1;
     }
+}
+@keyframes hamburger_puls {
+	0% {
+		opacity: 1;
+		transform: scale(1);
+	}
+	100% {
+		opacity: 0;
+		transform: scale(1.4);
+	}
 }
 
 @media screen and (max-width: 900px) {
@@ -175,6 +185,7 @@
         
         .menu {
             display: flex;
+            margin-top: 10px;
         }
     }
 }
