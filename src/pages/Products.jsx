@@ -1,7 +1,7 @@
 import cakeData from "../assets/data/cakeData";
 import cupcakeData from "../assets/data/cupcakeData";
 
-import "../assets/scss/products.scss";
+import "../assets/scss/_products.scss";
 
 import ProductComponent from "../components/ProductComponent";
 
@@ -19,9 +19,33 @@ return (
 });
 
 return (
-<div className="product">
-  <img className="product-wrapper" src="../assets/images/products/product-wrapper" />
-  <div className="grid"> {CupcakeArray} </div>
-</div>
-)
+  <div id="product">
+    <div className="wrapper">
+      <h1>PRODUCT</h1>
+    </div>
+    {/* <img
+      src={
+        require("../assets/images/products/product-wrapper/wrapper.jpeg")
+          .default
+      }
+      alt="Logo"
+    /> */}
+    <div className="submenu">
+      <ul>
+        <li>
+          <a href="#cupcakes">Cupcakes</a>
+        </li>
+        <li>
+          <a href="#weddingCakes">Wedding cakes</a>
+        </li>
+      </ul>
+    </div>
+
+    <div className="grid">
+      <div> {CupcakeArray}</div>
+      <hr />
+      <div> {CakeArray}</div>
+    </div>
+  </div>
+);
 }
