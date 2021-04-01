@@ -6,6 +6,7 @@
         margin-top: 70px;
         text-align: center;
         font-size: 30px;
+        letter-spacing: 4px;
     }
     h1 {
         margin-right: 30px;
@@ -43,8 +44,6 @@
 
 .submenu {
     margin: 20px 0 auto 0;
-    width: auto;
-
     ul {
         justify-content: space-evenly;
         display: flex;
@@ -57,10 +56,10 @@
     }
 
     a {
-        letter-spacing: 1px;
+        letter-spacing: 1.5px;
         font-size: 30px;
         color: #C19D70;
-                text-align: center;
+        text-align: center;
 
     }
 }

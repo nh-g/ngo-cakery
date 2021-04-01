@@ -14,7 +14,10 @@ export default function Home() {
   });
   return (
     <div className="home container">
-      <div className="grid">{homeArray}</div>
+      <div className="home-grid">{homeArray}</div>
+      <a href="./products.jsx" type = "button" className="cta">
+        More Products
+      </a>
     </div>
   );
 }

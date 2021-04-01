@@ -35,10 +35,10 @@ export default [
     price: 300,
     filePath: "home/h6.jpg",
   },
-  {
-    id: "c7",
-    title: "Wedding 7",
-    price: 300,
-    filePath: "home/h7.jpg",
-  },
+  // {
+  //   id: "c7",
+  //   title: "Wedding 7",
+  //   price: 300,
+  //   filePath: "home/h7.jpg",
+  // },
 ];
