@@ -148,10 +148,11 @@
     .header {
         .nav-list {
             width: 100%;
-            height: calc(100% -65px);
+            min-height: 600px;
+            // height: calc(100% -65px);
             background:white;
             position: absolute;
-            top: 65px;
+            // top: 65px;
             left: -100%;
             transition: 300ms ease left;
             flex-direction: column;

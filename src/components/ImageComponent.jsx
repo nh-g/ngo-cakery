@@ -1,11 +1,10 @@
-export default function ImageComponent({ title, fileName }) {
-  const imageObject = require(`../assets/images/home/${fileName}`);
-  const imageURL = imageObject.default;
-
+export default function ImageComponent({ title, filePath }) {
+  const [fileFolder, fileName] = filePath.split("/");
+  const imageURL = require(`../assets/images/${fileFolder}/${fileName}`)
+    .default;
   return (
-    <article>
-      <h2>{title}</h2>
-      <img src={imageURL} alt={title} />
-    </article>
+    <div className="image-grid">
+      <img src={imageURL} alt={title} style={{ width: "100%" }} />
+    </div>
   );
 }

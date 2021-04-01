@@ -12,14 +12,13 @@ export default function Subscriber() {
         setName(event.target.value);
     }
 
-    return(
-        <div className="Subscribe">
-            <form onSubmit={onSubscribe}>
-                <input value={name} onChange ={(event) => 
-                onName(event)}/>
-                <br/>
-                <button>Subscribe us</button>
-            </form>
-        </div>
-    )
+    return (
+      <div className="Subscribe">
+        <form onSubmit={onSubscribe}>
+          <input value={name} onChange={(event) => onName(event)} />
+          <br />
+          <button>Subscribe us</button>
+        </form>
+      </div>
+    );
 }

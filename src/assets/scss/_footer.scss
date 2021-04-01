@@ -1,6 +1,6 @@
 #footer .footer {
-    // min-height: 250px;
-    height: auto;
+    min-height: 200px;
+    // height: auto;
     flex-direction: column;
     position: fixed;
     left: 0;
@@ -37,7 +37,7 @@
     }
 
     .social-icon {
-        margin-bottom: 30px;
+        margin-bottom: 10px;
         text-align: center;
         display: inline-block;
     }

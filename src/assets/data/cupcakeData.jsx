@@ -19,6 +19,7 @@ export default [
   },
   {
     id: "cp4",
+    title: "Pretzel",
     filePath: "cupcakes/cp4.jpg",
     price: 30,
   },
