@@ -43,18 +43,25 @@
 
 .submenu {
     margin: 20px 0 auto 0;
-    width: 80vw;
+    width: auto;
 
     ul {
         justify-content: space-evenly;
-        text-align: center;
         display: flex;
+        align-items: center;
+    }
+    li {
+        list-style-type: none;
+        text-align: center;
+
     }
 
     a {
         letter-spacing: 1px;
         font-size: 30px;
         color: #C19D70;
+                text-align: center;
+
     }
 }
 
