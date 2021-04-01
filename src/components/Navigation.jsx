@@ -33,7 +33,7 @@ export default function Navigation() {
           <ul>
             {navLinks.map((link, index) => (
               <li key={index}>
-                <Link to={link.path}>{link.title}</Link>
+                <Link to={link.path} onClick={() => setMenuActive(!menuActive)}>{link.title}</Link>
               </li>
             ))}
           </ul>
