@@ -1,8 +1,8 @@
 import React from 'react';
-import Navigation from './components/Navigation';
 import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
 
-import PageRenderer from "./Page-renderer"
+import PageRenderer from "./Page-renderer";
+import Navigation from "./components/Navigation";
 import Footer from "./components/Footer"
 export default function App() {
   return (

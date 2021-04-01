@@ -26,7 +26,7 @@ export default function Navigation() {
       <div className="header">
         <img
           className="brand "
-          src={require("../image/cupcakelogo.jpeg").default}
+          src={require("../assets/images/logo/cupcakelogo.jpeg").default}
           alt="Logo"
         />
         <div className={`nav-list ${menuActive && "active"}`}>

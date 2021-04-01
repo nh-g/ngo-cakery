@@ -1,5 +1,5 @@
 export default function ImageComponent({ title, fileName }) {
-  const imageObject = require("../assets/images/home" + fileName);
+  const imageObject = require(`../assets/images/home/${fileName}`);
   const imageURL = imageObject.default;
 
   return (

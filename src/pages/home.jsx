@@ -1,5 +1,10 @@
-import ImageComponent from "../assets/images/home";
-
+import ImageComponent from "../components/ImageComponent";
+import homeJSON from "../assets/data/homeCake.json";
 export default function Home(){
-    return <div>Home</div>
+
+    return(
+        <div className="home container">
+            <div className="grid"></div>
+        </div>
+    )
 }
