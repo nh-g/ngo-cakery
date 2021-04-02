@@ -14,93 +14,105 @@
 	        background-position: center;
 	        background-size: cover;
 
-        }
-	        // To change background-image opacity in CSS without affecting text | HTML/CSS
-	        // .wrapper::before {
-	        //     background-image: url(../images/about/a3.jpeg);
-	        //     background-position: center -120px;
-	        //     background-size: cover;
-	        //     opacity: .2;
-	        //     	        height: 200px;
+	    }
 
-	        //     content: "";
-	        //     position: absolute;
+	    // To change background-image opacity in CSS without affecting text | HTML/CSS
+	    // .wrapper::before {
+	    //     background-image: url(../images/about/a3.jpeg);
+	    //     background-position: center -120px;
+	    //     background-size: cover;
+	    //     opacity: .2;
+	    //     	        height: 200px;
 
-	        //     opacity: 0.75;
-	        // }
+	    //     content: "";
+	    //     position: absolute;
 
-	        h1 {
-	            margin-right: 30px;
-	            color: white;
-	        }
-                h2 {
-        margin-top: 30px;
-        text-align: center;
-        font-size: 40px;
-        letter-spacing: 5px;
-        font-family: 'Dancing Script', cursive;
-        color: #C19D70;
+	    //     opacity: 0.75;
+	    // }
 
-    }
-        hr {
-        width: 15%;
-        border: none;
-        border-top: 1px double #444;
-        color: #C19D70;
-        overflow: visible;
-        text-align: center;
-        height: 3px;
-    }
-        hr:after {
-        background: #fff;
-        content: '◆';
-        padding: 0 4px;
-        position: relative;
-        top: -13px;
-    }
-        h3 {
-        color: #C19D70;
-        text-decoration: solid;
-        font-size: 22px;
-        text-align: left;
-    }
+	    h1 {
+	        margin-right: 30px;
+	        color: white;
+	    }
 
+	    h2 {
+	        margin-top: 30px;
+	        text-align: center;
+	        font-size: 40px;
+	        letter-spacing: 5px;
+	        font-family: 'Dancing Script', cursive;
+	        color: #C19D70;
+
+	    }
+
+	    hr {
+	        width: 15%;
+	        border: none;
+	        border-top: 1px double #444;
+	        color: #C19D70;
+	        overflow: visible;
+	        text-align: center;
+	        height: 3px;
+	    }
+
+	    hr:after {
+	        background: #fff;
+	        content: '◆';
+	        padding: 0 4px;
+	        position: relative;
+	        top: -13px;
+	    }
+
+	    h3 {
+	        color: #C19D70;
+	        text-decoration: solid;
+	        font-size: 22px;
+	        text-align: left;
+	    }
+        h4 {
+            margin-bottom: 20px;
+	        text-align: right;
+	        font-style: italic;
+            font-size: 13px;
+	    }
+	}
+    	    
+
+	#contact .contact-items {
+	    width: 100%;
+	    display: grid;
+	    grid-template-columns: 1fr 1fr 1fr;
+	    grid-gap: 20px;
+	    margin: 30px 30px 30px 30px;
+	    text-align: center;
+	}
+
+	// #contact .contact-item {
+	// 	width: 30%;
+	// 	margin: 0;
+	// 	flex-direction: row;
+	// }
+	#contact .contact-item .icon {
+	    height: 100px;
+	    width: 100px;
+	}
+
+	#contact .contact-item .icon img {
+	    object-fit: contain;
+	}
+
+	#contact .contact-item .contact-info {
+	    width: 100%;
+	    text-align: left;
+	}
+
+
+	@media screen and (max-width:400px) {
+	    #contact .contact .wrapper {
+	        height: 100px;
 	    }
 
 	    #contact .contact-items {
-	        width: 100%;
-	        display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-gap: 20px;
-	        margin: 30px 30px 30px 30px;
-            text-align: center;
+	        grid-template-columns: 1fr;
 	    }
-
-	    // #contact .contact-item {
-	    // 	width: 30%;
-	    // 	margin: 0;
-	    // 	flex-direction: row;
-	    // }
-	    #contact .contact-item .icon {
-	        height: 100px;
-	        width: 100px;
-	    }
-
-	    #contact .contact-item .icon img {
-	        object-fit: contain;
-	    }
-
-	    #contact .contact-item .contact-info {
-	        width: 100%;
-	        text-align: left;
-	    }
-
-
-@media screen and (max-width:400px){
-    #contact .contact .wrapper{
-        height: 100px;
-    }
-    #contact .contact-items{
-        grid-template-columns: 1fr;
-    }
-}
+	}

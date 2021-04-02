@@ -39,12 +39,16 @@ export default function Contact() {
             <div className="contact-info">
               <h3>Pick-up Order</h3>
               <p>
-                Via la Costa Avenue. Blue Port gated neighborhood. <br/> We will send
-                you the GPS Location via WhatsApp.
+                Via la Costa Avenue. Blue Port gated neighborhood. <br /> We
+                will send you the GPS Location via WhatsApp.
               </p>
             </div>
           </div>
         </div>
+        <h4>
+          ❖　Orders must be placed 2 days before for greater security,
+          processing and availability.
+        </h4>
       </div>
     </section>
   );
