@@ -34,15 +34,15 @@ return (
         </li>
       </ul>
     </div>
-    {/*
-  <hr /> */}
     <div id="cupcakes">
       <h2>CUPCAKE</h2>
+      <hr />
+
       <div className="grid">{CupcakeArray}</div>
     </div>
-
     <div id="cakes">
-      <h2>WEDDING CAKE </h2> 
+      <h2>WEDDING CAKE </h2>
+      <hr />
       <div className="grid">{CakeArray}</div>
     </div>
   </div>

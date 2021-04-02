@@ -1,4 +1,64 @@
-.wrapper {
+.about {
+    margin: 30px 30px 30px 30px;
+    padding-bottom: 300px;
+
+    p {
+        margin: 40px 100px 40px 100px;
+        letter-spacing: 1.5px;
+        text-align: justify;
+        font-size: 22px;
+    }
+
+    hr {
+        width: 30%;
+        border: none;
+        border-top: 1px double #444;
+        color: #C19D70;
+        overflow: visible;
+        text-align: center;
+        height: 3px;
+    }
+
+    hr:after {
+        background: #fff;
+        content: '◆';
+        padding: 0 4px;
+        position: relative;
+        top: -13px;
+    }
+
+    h2 {
+        margin-top: 30px;
+        text-align: center;
+        font-size: 40px;
+        letter-spacing: 5px;
+        font-family: 'Dancing Script', cursive;
+        color: #C19D70;
+
+    }
+
+    h1 {
+        margin-right: 30px;
+        color: white;
+    }
+
+    h4 {
+        color: #C19D70;
+        font-size: 20px;
+        margin-right: 50px;
+        text-align: justify;
+    }
+
+    h3 {
+        color: #C19D70;
+        text-decoration: solid;
+        font-size: 22px;
+        text-align: right;
+    }
+
+}
+
+.about .wrapper {
     background-image: url(../images/about/a2.jpeg);
     background-position: center -1500px;
     height: 200px;
@@ -25,3 +85,61 @@
     //     word-wrap: break-word;
     // }
 }
+
+
+.col-left .about-img img{
+    border-radius: 50%;
+    width: 70%;
+    height: 70%;
+    border: 3px solid white;
+    opacity: .7;
+    align-items: center;
+}
+
+
+.about-grid {
+    margin: 40px 100px auto 100px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+        background-color: #C19D70;
+
+    h1{
+        color: #444;
+    }
+    h2{
+        color: white;
+    }
+
+    p{
+        color: white;
+        font-style: italic;
+    
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    .about .wrapper {
+        height: 100px;
+    }
+
+    .about-grid{
+            grid-template-columns: 1fr;
+    }
+    .about p {
+        margin: 20px;
+        letter-spacing: 1.2px;
+        text-align: justify;
+    }
+
+    @media screen and (max-width:400px){
+        .about-grid{
+            margin: 0;
+    }}
+}
+
+
