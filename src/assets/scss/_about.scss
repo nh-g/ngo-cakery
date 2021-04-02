@@ -10,7 +10,7 @@
     }
 
     hr {
-        width: 30%;
+        width: 15%;
         border: none;
         border-top: 1px double #444;
         color: #C19D70;
@@ -59,8 +59,9 @@
 }
 
 .about .wrapper {
-    background-image: url(../images/about/a2.jpeg);
-    background-position: center -1500px;
+	        background-image: url(../images/about/a3.jpeg);
+    background-position: center;
+    background-size: cover;
     height: 200px;
     text-align: right;
     letter-spacing: 2px;
@@ -92,7 +93,7 @@
     width: 70%;
     height: 70%;
     border: 3px solid white;
-    opacity: .7;
+    opacity: .85;
     align-items: center;
 }
 

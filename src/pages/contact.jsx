@@ -1,0 +1,51 @@
+import '../assets/scss/_contact.scss'
+export default function Contact() {
+  return (
+    <section id="contact">
+      <div className="contact container">
+        <div className="wrapper">
+          <h1>CONTACT US</h1>
+        </div>
+        <h2>We are Open</h2>
+        <hr />
+        <div className="contact-items">
+          <div className="contact-item">
+            <div className="icon">
+              <img src="https://img.icons8.com/pastel-glyph/64/000000/door-opened.png" />{" "}
+            </div>
+            <div className="contact-info">
+              <h3>Opening Hours</h3>
+              <p>
+                Tuesday to Saturday <br /> 9:00 - 14:00
+              </p>
+            </div>
+          </div>
+          <div className="contact-item">
+            <div className="icon">
+              <img src="https://img.icons8.com/pastel-glyph/64/000000/delivery-tracking--v1.png" />{" "}
+            </div>
+            <div className="contact-info">
+              <h3>Home Delivery Service</h3>
+              <p>
+                All the city of Stockholm (redacted) and Malmo (redacted) with
+                additional cost.
+              </p>
+            </div>
+          </div>
+          <div className="contact-item">
+            <div className="icon">
+              <img src="https://img.icons8.com/pastel-glyph/64/000000/pickup-point.png" />{" "}
+            </div>
+            <div className="contact-info">
+              <h3>Pick-up Order</h3>
+              <p>
+                Via la Costa Avenue. Blue Port gated neighborhood. <br/> We will send
+                you the GPS Location via WhatsApp.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

@@ -21,7 +21,7 @@ export default function Footer() {
               </a>
             </div>
             <div className="social-item">
-              <a href="#">
+              <a href="mailto: softwaredevelopmentacademy@gmail.com">
                 <img src="https://img.icons8.com/bubbles/50/000000/email.png" />
               </a>
             </div>
