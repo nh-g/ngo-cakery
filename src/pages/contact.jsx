@@ -16,7 +16,9 @@ export default function Contact() {
             <div className="contact-info">
               <h3>Opening Hours</h3>
               <p>
-                Tuesday to Saturday <br /> 9:00 - 14:00
+                ❖ Tuesday to Saturday ..... 9:00 - 14:00
+                <br /> <br /> ❖　Orders must be placed 2 days before for greater
+                security, processing and availability.
               </p>
             </div>
           </div>
@@ -27,8 +29,8 @@ export default function Contact() {
             <div className="contact-info">
               <h3>Home Delivery Service</h3>
               <p>
-                All the city of Stockholm (redacted) and Malmo (redacted) with
-                additional cost.
+                ❖ All the city of Stockholm (redacted) and Malmo (redacted)
+                with additional cost.
               </p>
             </div>
           </div>
@@ -39,16 +41,12 @@ export default function Contact() {
             <div className="contact-info">
               <h3>Pick-up Order</h3>
               <p>
-                Via la Costa Avenue. Blue Port gated neighborhood. <br /> We
-                will send you the GPS Location via WhatsApp.
+                ❖ Via la Costa Avenue. Blue Port gated neighborhood. <br />{" "}
+                <br />❖ We will send you the GPS Location via WhatsApp.
               </p>
             </div>
           </div>
         </div>
-        <h4>
-          ❖　Orders must be placed 2 days before for greater security,
-          processing and availability.
-        </h4>
       </div>
     </section>
   );
