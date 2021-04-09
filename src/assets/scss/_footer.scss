@@ -2,7 +2,7 @@
     min-height: 200px;
     // height: auto;
     flex-direction: column;
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -58,9 +58,9 @@
         filter: grayscale(0);
     }
 
-
     p {
         color: white;
         font-size: 10px;
     }
 }
+
