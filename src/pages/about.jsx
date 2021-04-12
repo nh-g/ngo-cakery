@@ -14,7 +14,7 @@ return (
       memory. We have been in the pastry market for more than 8 years and now we
       offer you a new way to shop through our website. Let's cake your day!
     </p>
-    <hr />
+    {/* <hr /> */}
     <div className="about-grid">
       <div className="col-left">
         <div className="about-img">
