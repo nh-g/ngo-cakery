@@ -1,5 +1,6 @@
 	#contact .contact {
-	    margin: 30px 30px 30px 30px;
+	    // margin: 30px 30px 30px 30px;
+		margin: 0 auto; // align to center
 	    padding-bottom: 300px;
 
 	    .wrapper {
@@ -13,7 +14,6 @@
 	        background-image: url(../images/about/a2.jpeg);
 	        background-position: center;
 	        background-size: cover;
-
 	    }
 
 	    // To change background-image opacity in CSS without affecting text | HTML/CSS
