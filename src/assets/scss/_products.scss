@@ -19,6 +19,7 @@
         padding-top: 80px;
         padding-right: 20px;
     }
+
     hr {
         width: 30%;
 
@@ -63,17 +64,15 @@
 }
 
 .submenu {
-    margin: 20px 0 auto 0;
+    margin: 30px 20px auto 0;
 
     ul {
-        justify-content: space-evenly;
         display: flex;
-        align-items: center;
+        justify-content: space-between;
     }
 
     li {
         list-style-type: none;
-        text-align: center;
 
     }
 
@@ -81,8 +80,6 @@
         letter-spacing: 1.5px;
         font-size: 30px;
         color: #C19D70;
-        text-align: center;
-
     }
 }
 
@@ -109,8 +106,11 @@
         }
     }
 
+    .submenu{
+        margin: 30px 20px auto 0;
+    }
     .submenu a {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .grid {
