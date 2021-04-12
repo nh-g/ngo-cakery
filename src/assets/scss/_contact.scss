@@ -118,4 +118,14 @@
 		#contact .contact-items {
 			grid-template-columns: 1fr;
 		}
+
+		.wrapper{
+		margin: 0;
+        height: 100px;
+
+        h1 {
+            font-size: 20px;
+            padding-top: 20px;
+        }
+    }
 	}
