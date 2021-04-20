@@ -5,9 +5,12 @@
     position: relative;
     left: 0;
     bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 10px;
     width: 100%;
     text-align: center;
     background-image: linear-gradient(60deg, #444 0%, #485563 100%);
+
     h1 {
         color: white;
         letter-spacing: 3px;
@@ -63,4 +66,3 @@
         font-size: 10px;
     }
 }
-
