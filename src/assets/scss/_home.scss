@@ -1,6 +1,11 @@
 .home {
-  margin: 30px 30px 250px 30px ;
+  margin: 30px 30px 50px 30px ;
   height: auto;
+  .cta a {
+  color: #444;
+  text-decoration: none;
+  text-align: right;
+}
 }
 .home-grid {
   display: grid;
@@ -18,12 +23,10 @@
   background-color: C19D70;
   opacity: .3;
 }
-.cta a {
-  padding: 30px auto 30px auto;
-}
+
 @media screen and (max-width:900px) {
   .home {
-  margin: 30px 30px 300px 30px;
+  margin: 30px 30px 30px 30px;
   height: auto;
 }
 .home-grid {
