@@ -7,6 +7,12 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px
 }
+// fix the images fit to the grid
+.home img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .image-grid:hover{
   background-color: C19D70;

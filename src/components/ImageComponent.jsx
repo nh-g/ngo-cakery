@@ -4,7 +4,7 @@ export default function ImageComponent({ title, price, filePath }) {
     .default;
   return (
     <div className="image-grid">
-      <img src={imageURL} alt={title} style={{ width: "100%" }} />
+      <img src={imageURL} alt={title} style={{ width: "100%"}} />
       <figcaption>
         <p>{title}</p>
         <p>{price}</p>
